@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itchunyang.layout.FrameActivity"
+    android:background="#ff0000"
+    android:foreground="@drawable/internet"
+    android:foregroundGravity="bottom|right">
+
+    <!--
+    android:foreground 用于表示帧布局最顶层的覆盖层
+    android:foregroundGravity 用于表示覆盖层内容的位置
+    -->
+
+    <TextView
+        android:textColor="#FF6EB4"
+        android:gravity="right|bottom"
+        android:background="#103509"
+        android:text="第一层"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+    <TextView
+        android:textColor="#FF6EB4"
+        android:gravity="right|bottom"
+        android:background="#CCCCCC"
+        android:text="第二层"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:textColor="#FF6EB4"
+        android:gravity="right|bottom"
+        android:background="#100459"
+        android:text="第三层"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:textColor="#FF6EB4"
+        android:gravity="right|bottom"
+        android:background="#FFD700"
+        android:text="第四层"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:text="居中"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</FrameLayout>

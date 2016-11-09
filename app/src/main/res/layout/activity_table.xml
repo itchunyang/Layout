@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itchunyang.layout.TableActivity"
+    android:stretchColumns="4">
+
+<!--TableLayout布局由许多的TableRow（行） 组成，它没有列的概念
+     1）android:shrinkColumns="可收缩的column"，
+     2）android:stretchColumns="可伸展的column"。
+-->
+
+    <!--
+    TableRow
+        android:layout_column 用来指定列号  第一列index=0
+        android:layout_span   用来合几并列
+    -->
+
+    <Button
+        android:text="第一行"/>
+
+    <Button
+        android:text="第二行"/>
+
+    <TableRow>
+        <Button
+            android:layout_width="150dp"
+            android:text="第一列"/>
+
+        <Button
+            android:text="第二列"/>
+
+        <Button
+            android:text="第三列"/>
+
+        <Button
+            android:text="第四列"/>
+
+        <Button
+            android:text="第五列"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_column="1"
+            android:text="one"/>
+
+        <Button
+            android:layout_span="2"
+            android:text="two"/>
+
+        <Button
+            android:text="Three"/>
+
+    </TableRow>
+
+</TableLayout>
