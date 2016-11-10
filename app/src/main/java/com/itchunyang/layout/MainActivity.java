@@ -1,11 +1,12 @@
 package com.itchunyang.layout;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,5 +29,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void include(View view) {
         startActivity(new Intent(this,IncludeActivity.class));
+    }
+
+    public void merge(View view) {
+//        startActivity(new Intent(this,MergeActivity.class));
+        startActivity(new Intent(this,MergeActivity1.class));
+    }
+
+    public void viewStub(View view) {
+        startActivity(new Intent(this,ViewStubActivity.class));
     }
 }

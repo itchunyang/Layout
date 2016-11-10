@@ -18,7 +18,10 @@
         <activity android:name=".FrameActivity" />
         <activity android:name=".RelativeActivity" />
         <activity android:name=".TableActivity" />
-        <activity android:name=".IncludeActivity"></activity>
+        <activity android:name=".IncludeActivity" />
+        <activity android:name=".MergeActivity" />
+        <activity android:name=".MergeActivity1" />
+        <activity android:name=".ViewStubActivity"></activity>
     </application>
 
 </manifest>
