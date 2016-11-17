@@ -39,4 +39,8 @@ public class MainActivity extends AppCompatActivity {
     public void viewStub(View view) {
         startActivity(new Intent(this,ViewStubActivity.class));
     }
+
+    public void layoutParams(View view) {
+        startActivity(new Intent(this,LayoutParamsActivity.class));
+    }
 }

@@ -21,7 +21,8 @@
         <activity android:name=".IncludeActivity" />
         <activity android:name=".MergeActivity" />
         <activity android:name=".MergeActivity1" />
-        <activity android:name=".ViewStubActivity"></activity>
+        <activity android:name=".ViewStubActivity" />
+        <activity android:name=".LayoutParamsActivity"></activity>
     </application>
 
 </manifest>
